@@ -1,0 +1,17 @@
+<div class="card-deck">
+    <mdb-card *ngFor="let fo of familyOverview">
+      <div class="view rgba-white-slight waves-light" mdbWavesEffect>
+        <mdb-card-img src="{{ fo.imageUrl }}" alt="Card image cap"></mdb-card-img>
+        <a>
+          <div class="mask"></div>
+        </a>
+      </div>
+      <mdb-card-body>
+        <mdb-card-title>
+          <h4>{{ fo.name }}</h4>
+        </mdb-card-title>
+  
+        <a routerLink="{{ fo.link }}" mdbBtn color="primary" mdbWavesEffect>Kiezen</a>
+      </mdb-card-body>
+    </mdb-card>
+  </div>

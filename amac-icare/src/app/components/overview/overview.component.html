@@ -1,0 +1,17 @@
+<div class="card-deck">
+    <mdb-card *ngFor="let po of productOverview">
+      <div class="view rgba-white-slight waves-light" mdbWavesEffect>
+        <mdb-card-img src="{{ po.url }}" alt="Card image cap"></mdb-card-img>
+        <a>
+          <div class="mask"></div>
+        </a>
+      </div>
+      <mdb-card-body>
+        <mdb-card-title>
+          <h4>{{ po.name }}</h4>
+        </mdb-card-title>
+  
+        <a routerLink="{{ po.link }}" mdbBtn color="primary" mdbWavesEffect>{{ po.name }} kiezen</a>
+      </mdb-card-body>
+    </mdb-card>
+  </div>

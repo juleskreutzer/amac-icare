@@ -1,0 +1,63 @@
+{
+    "iPhone": {
+        "7": {
+            "32": [11.99, 12.99, 9.99, 50],
+            "128": [11.99, 12.99, 9.99, 50],
+            "keys": ["32", "128"],
+            "imageUrl": "../../../assets/img/product-overview/iPhone/7.png",
+            "name": "iPhone 7"
+        },
+        "7plus": {
+            "32": [11.99, 12.99, 9.99, 50],
+            "128": [12.99, 13.99, 11.99, 75],
+            "keys": ["32", "128"],
+            "imageUrl": "../../../assets/img/product-overview/iPhone/7plus.png",
+            "name": "iPhone 7 Plus"
+        },
+        "8": {
+            "64": [11.99, 12.99, 9.99, 50],
+            "256": [12.99, 13.99, 11.99, 75],
+            "keys": ["64", "256"],
+            "imageUrl": "../../../assets/img/product-overview/iPhone/8.png",
+            "name": "iPhone 8"
+        },
+        "8plus": {
+            "64": [12.99, 13.99, 11.99, 75],
+            "256": [12.99, 13.99, 11.99, 75],
+            "keys": ["64", "256"],
+            "imageUrl": "../../../assets/img/product-overview/iPhone/8plus.png",
+            "name": "iPhone 8 Plus"
+        },
+        "x": {
+            "64": [12.99, 13.99, 11.99, 75],
+            "256": [14.99, 15.99, 13.99, 75],
+            "keys": ["64", "256"],
+            "imageUrl": "../../../assets/img/product-overview/iPhone/x.png",
+            "name": "iPhone X"
+        },
+        "xr": {
+            "64": [12.99, 13.99, 11.99, 75],
+            "128": [12.99, 13.99, 11.99, 75],
+            "256": [14.99, 15.99, 13.99, 75],
+            "keys": ["64", "128", "256"],
+            "imageUrl": "../../../assets/img/product-overview/iPhone/xr.png",
+            "name": "iPhone Xr"
+        },
+        "xs": {
+            "64": [14.99, 15.99, 13.99, 75],
+            "256": [14.99, 15.99, 13.99, 75],
+            "512": [16.99, 17.99, 15.99, 75],
+            "keys": ["64", "256", "512"],
+            "imageUrl": "../../../assets/img/product-overview/iPhone/xs.png",
+            "name": "iPhone Xs"
+        },
+        "xsmax": {
+            "64": [14.99, 15.99, 13.99, 75],
+            "256": [14.99, 15.99, 13.99, 75],
+            "512": [16.99, 17.99, 15.99, 75],
+            "keys": ["64", "256", "512"],
+            "imageUrl": "../../../assets/img/product-overview/iPhone/xsmax.png",
+            "name": "iPhone Xs Max"
+        }
+    }
+}
